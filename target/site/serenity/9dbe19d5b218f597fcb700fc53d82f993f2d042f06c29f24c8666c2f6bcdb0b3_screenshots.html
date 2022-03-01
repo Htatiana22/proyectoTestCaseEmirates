@@ -1,0 +1,266 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="ac4a9a936f4ebf72b2eacfec2228adb55013f6cd791f13aba842257f7f4ce51f.html">Emirates</a></span>
+                > <span class="truncate-60"><a
+                    href="9dbe19d5b218f597fcb700fc53d82f993f2d042f06c29f24c8666c2f6bcdb0b3.html">book a hotel </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 01-03-2022 12:43</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Emirates </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                user wants to book a hotel
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">book a hotel
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="a867149d5402f1aea46f66bb0ed7c56db66481a2717adb0a1bced755ef31d8ac.png" title=" Given user wants to book a hotel" width="1366"/>
+                <img src="a867149d5402f1aea46f66bb0ed7c56db66481a2717adb0a1bced755ef31d8ac.png" title=" Herika open up" width="1366"/>
+                <img src="a867149d5402f1aea46f66bb0ed7c56db66481a2717adb0a1bced755ef31d8ac.png" title=" Herika opens the Emirates page" width="1366"/>
+                <img src="a867149d5402f1aea46f66bb0ed7c56db66481a2717adb0a1bced755ef31d8ac.png" title=" Herika open up (completed)" width="1366"/>
+                <img src="a81ef6ea81f29e577c95611c2db1e166adbc198b1d444ef662544c4e7820443d.png" title=" Herika accept cookies" width="1366"/>
+                <img src="a81ef6ea81f29e577c95611c2db1e166adbc198b1d444ef662544c4e7820443d.png" title=" Herika clicks on click on the accept button cookies" width="1366"/>
+                <img src="3e059a891f549a3ca6c6cf5f27882442db487b0cd40616423c1139a049aef3fb.png" title=" Herika clicks on click on the hotels option" width="1366"/>
+                <img src="3e059a891f549a3ca6c6cf5f27882442db487b0cd40616423c1139a049aef3fb.png" title=" Herika accept cookies (completed)" width="1366"/>
+                <img src="3e059a891f549a3ca6c6cf5f27882442db487b0cd40616423c1139a049aef3fb.png" title=" Given user wants to book a hotel (completed)" width="1366"/>
+                <img src="3aee34043b48c5ca954cc05b10ede1c7dd0094ab3ca2daccf1b717200fb2a6e6.png" title=" When user clicks on hotels option
+| strValueDestination |
+| pereira |" width="1366"/>
+                <img src="3aee34043b48c5ca954cc05b10ede1c7dd0094ab3ca2daccf1b717200fb2a6e6.png" title=" Herika find hotels" width="1366"/>
+                <img src="3aee34043b48c5ca954cc05b10ede1c7dd0094ab3ca2daccf1b717200fb2a6e6.png" title=" Herika clicks on Click on the destination field" width="1366"/>
+                <img src="76e592357281545b29040d82069e1881953a85584c0071573492f0d7f1498622.png" title=" Herika enters 'pereira' into Enter the destination value" width="1366"/>
+                <img src="0fffcfc326ae8d1cda40833c1765bab36616d7ab8a02e27f0bcf983b9125e3a7.png" title=" Herika clicks on Select check-in date input" width="1366"/>
+                <img src="d2f413a2ffe3e490211f8e79280d30e4e10b8e394e1c0c15db1db31d5bdbfca7.png" title=" Herika clicks on Select check-in date value" width="1366"/>
+                <img src="79365f26cf737554aa2cbef5a2b18cca30ee5e10d4da9f94750441ff1e8acd3f.png" title=" Herika clicks on Select check-out date input" width="1366"/>
+                <img src="fe662a7f02d22f4046635a97dfb1e046dba3f64dd5d7a45e7debff1d4d4b25a3.png" title=" Herika clicks on Select check-out date value" width="1366"/>
+                <img src="c1e3af2a5ad043f785d4cd2ca69d0c06c5eca65e1bdc878e0faad035ea2fcfc9.png" title=" Herika clicks on Click the find hotel button" width="1366"/>
+                <img src="e63f248d7880ec9f066295e0f14d4789ef81d99175c0a02c7fc9db4b63ea9cf0.png" title=" Herika find hotels (completed)" width="1366"/>
+                <img src="e63f248d7880ec9f066295e0f14d4789ef81d99175c0a02c7fc9db4b63ea9cf0.png" title=" When user clicks on hotels option
+| strValueDestination |
+| pereira | (completed)" width="1366"/>
+                <img src="dd87ee9a59acf3428569673e753525264cf41486a0c5105106d06473325f9db7.png" title=" Then should show the book page" width="1366"/>
+                <img src="dd87ee9a59acf3428569673e753525264cf41486a0c5105106d06473325f9db7.png" title=" Herika book hotel" width="1366"/>
+                <img src="dd87ee9a59acf3428569673e753525264cf41486a0c5105106d06473325f9db7.png" title=" Herika clicks on click on the button check availability" width="1366"/>
+                <img src="3e4809ee0e04cecb21a4e76bdfb5deff5c772e6700faf1fefa5bd331301c963d.png" title=" Herika clicks on click the book now button" width="1366"/>
+                <img src="a75d3c06bd4ad3edfff71333046aee8b0792172f91b8b46d0589a2b3ce4466b7.png" title=" Herika clicks on select the number of rooms" width="1366"/>
+                <img src="d399bcc3e273b1a5d92ab1d9df89f25861dfeb6dafd885efd73719d32759c2df.png" title=" Herika clicks on click on booking button" width="1366"/>
+                <img src="d399bcc3e273b1a5d92ab1d9df89f25861dfeb6dafd885efd73719d32759c2df.png" title=" Herika book hotel (completed)" width="1366"/>
+                <img src="d399bcc3e273b1a5d92ab1d9df89f25861dfeb6dafd885efd73719d32759c2df.png" title=" Then should show the book page (completed)" width="1366"/>
+                <img src="9d3bb42155528fa0566c1990feeed2be016bc9f5f4df0177d1fa9985bd8b5dbd.png" title=" And the user makes the reservation
+| strFirstName | strLastName | strEnterEmail | strConfirmationEmail | strPhoneNumber |
+| Herika | Reyes | herika.reyes@gmail.com | herika.reyes@gmail.com | 3218937861 |" width="1366"/>
+                <img src="9d3bb42155528fa0566c1990feeed2be016bc9f5f4df0177d1fa9985bd8b5dbd.png" title=" Herika final details" width="1366"/>
+                <img src="9d3bb42155528fa0566c1990feeed2be016bc9f5f4df0177d1fa9985bd8b5dbd.png" title=" Herika clicks on Enter the name" width="1366"/>
+                <img src="c3a797053eaf0cafbab36dded3e3037e8a20935a4da41454e6d32008727f7fbd.png" title=" Herika enters 'Herika' into Write name" width="1366"/>
+                <img src="57df820dc3720a8f24d70f999277bc4b61327e6b55fe26bf2949d7e2a1bd12b4.png" title=" Herika clicks on Enter the lastname" width="1366"/>
+                <img src="6d70834144bc0f2ba8398fd652e8f317c54106d2df7aa744819fea6edab550cb.png" title=" Herika enters 'Reyes' into Write lastname" width="1366"/>
+                <img src="6965157c589fbc7727bd08ced9c9d7a7ac0d17394e69b228960adaf23a7eedaa.png" title=" Herika clicks on Enter the email" width="1366"/>
+                <img src="a0031ec1f5a0de8fd02000018d91d54e7cf8bde2b500673d0e399957f410dfab.png" title=" Herika enters 'herika.reyes@gmail.com' into Write email" width="1366"/>
+                <img src="ad0775ed2dcc4bbdba7e0c56d08478c277363783e24dac91b05214a8f101a4cc.png" title=" Herika clicks on Confirm Email" width="1366"/>
+                <img src="a9c9f0622a0983e83c8a9e5c20f1c79ff56cee6b25c980423f4eb4cdbfdd2c86.png" title=" Herika enters 'herika.reyes@gmail.com' into Write the mail again" width="1366"/>
+                <img src="428a5c43642f09e6ab7b13597fff8263643a0ac888aa0d2443af82d4f9d94b56.png" title=" Herika clicks on click the next button" width="1366"/>
+                <img src="1b82e8968ce7363904fc8f9337967f8ef18fe89624b3ceabf7b1d5419b65c39a.png" title=" Herika clicks on Click on the phone number field" width="1366"/>
+                <img src="e972b0ca8bcbf99468ca00a1c652a340f414595d4e041f951a034819f33970b6.png" title=" Herika enters '3218937861' into Enter the cell phone number" width="1366"/>
+                <img src="ce5497fe96ebd329ba6d32ea96ca686828f87927ab1b98f25982e30e234e0da6.png" title=" Herika clicks on Click on complete reservation" width="1366"/>
+                <img src="ce5497fe96ebd329ba6d32ea96ca686828f87927ab1b98f25982e30e234e0da6.png" title=" Herika final details (completed)" width="1366"/>
+                <img src="ce5497fe96ebd329ba6d32ea96ca686828f87927ab1b98f25982e30e234e0da6.png" title=" And the user makes the reservation
+| strFirstName | strLastName | strEnterEmail | strConfirmationEmail | strPhoneNumber |
+| Herika | Reyes | herika.reyes@gmail.com | herika.reyes@gmail.com | 3218937861 | (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
