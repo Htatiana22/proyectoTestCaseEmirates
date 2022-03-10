@@ -1,5 +1,5 @@
-@Stories
-Feature: emirates
+@Stories1
+Feature: emirates Page
   user wants to book a hotel
 
   @scenario1
@@ -12,6 +12,7 @@ Feature: emirates
     And the user makes the reservation
     |strFirstName | strLastName | strEnterEmail          | strConfirmationEmail   | strPhoneNumber |
     |  Herika     | Reyes       | herika.reyes@gmail.com | herika.reyes@gmail.com | 3218937861     |
+
 
 
 

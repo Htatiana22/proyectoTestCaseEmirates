@@ -12,12 +12,12 @@ import java.util.List;
 
 public class FinalDetails implements Task {
 
-    private String strFirstName;
-
     private List<BookHotelData> bookHotelData;
+
         public FinalDetails (List <BookHotelData> bookHotelData) {
             this.bookHotelData = bookHotelData;
     }
+
     public static FinalDetails theReserve(List<BookHotelData> bookHotelData) {
         return Tasks.instrumented(FinalDetails.class, bookHotelData);
     }

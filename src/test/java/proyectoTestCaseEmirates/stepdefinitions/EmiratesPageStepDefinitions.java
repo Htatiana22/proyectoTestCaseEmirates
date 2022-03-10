@@ -30,6 +30,7 @@ public class EmiratesPageStepDefinitions {
     @Then("^should show the book page$")
     public void shouldShowTheBookPage() {
         OnStage.theActorInTheSpotlight().attemptsTo(BookHotel.onThePage());
+
     }
     @Then("^the user makes the reservation$")
     public void theUserMakesTheReservation(List <BookHotelData> bookHotelData) {

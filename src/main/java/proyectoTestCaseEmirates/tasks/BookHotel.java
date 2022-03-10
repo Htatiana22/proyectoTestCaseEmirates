@@ -25,9 +25,9 @@ public class BookHotel implements Task {
         }
 
         actor.attemptsTo(
-                Click.on(BookingPage.BUTTON_RESERVENOW),
-                Click.on(BookingPage.VALUE_SELECTROOMS),
-                Click.on(BookingPage.BUTTON_BOOKING)
+                    Click.on(BookingPage.BUTTON_RESERVENOW),
+                    Click.on(BookingPage.VALUE_SELECTROOMS),
+                    Click.on(BookingPage.BUTTON_BOOKING)
         );
     }
 }

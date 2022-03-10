@@ -7,8 +7,10 @@ package proyectoTestCaseEmirates.runners;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions (
-        features = "src/test/resources/features/booking.feature",
-        tags = "@Stories",
+        features = "src/test/resources/features/bookingPage.feature",
+        tags = "@Stories2",
+        //features = "src/test/resources/features/booking.feature",
+        //tags = "@Stories1",
         glue = "proyectoTestCaseEmirates.stepdefinitions",
         snippets = SnippetType.CAMELCASE)
 
